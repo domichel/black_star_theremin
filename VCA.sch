@@ -158,21 +158,20 @@ T 50700 46500 5 8 1 1 0 0 1
 value=500k
 }
 T 50000 39900 9 10 1 0 0 0 1
-1
+1.1
 T 49700 39700 9 10 1 0 0 0 1
 1
 T 50300 39700 9 10 1 0 0 0 1
 1
 T 53700 39700 9 10 1 0 0 0 1
 2018
-T 41300 48800 9 10 1 0 0 0 9
+T 41300 48800 9 10 1 0 0 0 8
 D2 and D3 are the designations used in the EABC80 datasheet.
 They are used at very low current which allow to get more bias voltage across R1//C3 than with silicon diodes.
 This is due to the space charge being negative toward the cathode which allow a little current to pass when Ugk=0.
 
-In that version, the VCA bias voltage is referenced to the cathode potential.
-If C6 is removed, the audio swing on R1//C3 load too much the bias circuit
-and the VCA doesn't work well.
+In that version, the VCA bias voltage is referenced to the ground.
+C6 was removed in order to provide a less brutal distortion.
 
 The main issue with that topology is that C3 have a too high impedance in the audio range.
 N 49900 47600 50500 47600 4
@@ -190,24 +189,9 @@ refdes=R4
 T 53500 43400 5 8 1 1 0 0 1
 value=1.5k
 }
-C 54200 44300 1 270 0 capacitor-4.sym
-{
-T 55300 44100 5 10 0 0 270 0 1
-device=POLARIZED_CAPACITOR
-T 54700 44100 5 10 1 1 270 0 1
-refdes=C6
-T 54900 44100 5 10 0 0 270 0 1
-symversion=0.1
-T 54600 43500 5 8 1 1 0 0 1
-value=330u
-}
 N 42900 42100 50700 42100 4
 N 45200 42100 45200 42600 4
 N 53400 42600 53400 43400 4
-N 54400 43400 54400 43000 4
-N 54400 43000 53400 43000 4
 N 53400 44300 53400 45500 4
-N 54400 44300 54400 44900 4
-N 54400 44900 53400 44900 4
-N 53400 44900 50700 44900 4
-N 50700 42100 50700 44900 4
+N 50700 42100 50700 42800 4
+N 50700 42800 53400 42800 4
