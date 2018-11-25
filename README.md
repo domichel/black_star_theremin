@@ -11,7 +11,7 @@ The Black Star theremin have a feature which make it unique: the antennas are ph
 
 The result is a very funny instrument to play. The audio output transformer is of outstanding quality, which imply I can use that instrument as a guitar amplifier and get better sounds with it than with my Fender Champ.
 
-Be aware this is a work in progress, some individual parts are allready working very well when others will be improved.
+Be aware this is a work in progress, some individual parts are allready working very well when others will be improved. The schematics was made with gschem on GNU/linux.
 
-Copyright Fominique Michel 2018
-This documentation describes the Black Star Theremin and is licensed under the CERN OHL v. 1.2.
+Copyright Dominique Michel 2018
+This documentation describes the Black Star Theremin and is licensed under the CERN OHL v. 1.2 or later.
