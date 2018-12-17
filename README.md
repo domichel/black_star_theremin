@@ -17,7 +17,7 @@ The schematics is made with gschem on GNU/linux. It is a hierarchical schematic,
 
 I made a separated DC regulated supply for the filaments. It is on a separated page named DC_Heater_Supply.sch.
 
-You are welcome with comments or discussions. For that, please use that thread http://www.thereminworld.com/Forums/T/32379/diy-theremin-project?Page=0 on the Theremin World forum. You can also open an issue here.
+You are welcome with comments or discussions. For that, please use that thread http://www.thereminworld.com/Forums/T/32379/diy-theremin-project?Page=0 on the Theremin World forum. It you prefer, You can open an issue here.
 
 Copyright Dominique Michel 2018
 This documentation describes the Black Star Theremin and is licensed under the CERN OHL v. 1.2 or later.
