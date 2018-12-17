@@ -21,7 +21,7 @@ device=RESISTOR
 T 46400 46000 5 10 1 1 0 0 1
 refdes=R1
 T 46400 45800 5 8 1 1 0 0 1
-value=15e6
+value=1e6
 }
 C 45700 47000 1 180 1 capacitor-1.sym
 {
@@ -78,7 +78,7 @@ refdes=C2
 T 44800 43800 5 10 0 0 90 6 1
 symversion=0.1
 T 45000 43400 5 8 1 1 180 6 1
-value=820p
+value=470p
 }
 C 45700 46100 1 90 1 capacitor-1.sym
 {
@@ -204,7 +204,7 @@ N 44400 46700 44400 42400 4
 N 43800 46700 43800 42400 4
 N 46800 45500 46800 42400 4
 T 49900 40300 9 10 1 0 0 0 1
-1
+1.1
 T 49600 43500 9 12 1 0 0 0 9
 Setting:
 - Set Co to the middle
@@ -233,3 +233,21 @@ value=4.7n
 C 47000 48100 1 0 0 gnd-1.sym
 N 47100 48400 47100 48600 4
 N 47100 49500 47100 49800 4
+T 40400 49100 9 12 1 0 0 0 8
+The value of Lo is an estimation based on measurement.
+It is the LW oscillator coil of the original radio.
+
+L1 is a hand bobined coil. The support is a bit of wood
+that Star the dog gave to me, diameter 12mm,
+the wire is from an old 230VAC fan coil and the
+value is an extimation based on its physical
+dimensions and number of turns.
+T 40400 40400 9 12 1 0 0 0 8
+All capacitors must be good quality RF ceramic ones.
+Better results will be obtained if C2 is a mica or air capacitor.
+The 2 adjustables capacitors are negative coefficient air caps from the radio.
+
+The exact value of C5 depend on the capacitance of the wiring between
+the oscillator output and the detector of the VCA.
+Its value will be higher with a coaxial cable than with
+a shielded 2 conductors cable.
