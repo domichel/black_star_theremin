@@ -237,7 +237,7 @@ N 46200 45600 47800 45600 4
 N 47300 45000 46700 45000 4
 N 46700 45000 46700 43300 4
 N 51100 49300 51100 50300 4
-T 40900 50100 9 10 1 0 0 0 3
+T 40900 50100 9 12 1 0 0 0 3
 Vcc is the main supply voltage.
 The output transformer is acting like a supply filtering coil between Vcc and Vtr with output on Vtr.
 
