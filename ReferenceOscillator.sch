@@ -43,7 +43,7 @@ symversion=0.1
 T 43000 45300 5 8 1 1 0 0 1
 value=555u
 T 43600 45700 5 10 1 1 0 0 1
-comment=Osc LW
+comment=MW Osc
 }
 C 45700 46100 1 90 1 capacitor-1.sym
 {
@@ -74,10 +74,6 @@ N 48400 42000 48400 43100 4
 N 43500 45900 43500 46800 4
 N 46600 46800 47000 46800 4
 N 46800 46800 46800 46400 4
-{
-T 46700 46900 5 8 1 1 0 0 1
-netname=grille
-}
 C 46400 49700 1 0 0 in-1.sym
 {
 T 46400 50000 5 10 0 0 0 0 1
@@ -124,10 +120,10 @@ N 42600 42400 48400 42400 4
 N 46800 45500 46800 42400 4
 T 49900 40300 9 10 1 0 0 0 1
 1
-T 49400 43100 9 12 1 0 0 0 3
-To change the frequeny, adjust C4.
-
-Setting: C5 is a fine setting for the null of the audio.
+T 40500 40900 9 12 1 0 0 0 3
+To change the frequeny, adjust C0.
+C5 can be used as fine setting but is normally set at its maximum value of 470pF.
+These settings are made one time and doesn't need to be accesible to the musician.
 C 47300 49500 1 90 1 capacitor-1.sym
 {
 T 46600 49300 5 10 0 0 90 6 1
@@ -195,3 +191,11 @@ value=470p
 }
 N 49000 47200 49500 47200 4
 N 49500 45900 49500 47200 4
+T 40300 48100 9 12 1 0 0 0 7
+All caps are ceramic RF capacitors.
+C5 is the tunning caps of the original radio. I used it because,
+due to the bias - current limitation introduced by R2//C6,
+ceramic caps was not working well.
+C0 is a negative temperature coefficient cap from the radio.
+Lo is the MW oscillator coil from the radio.
+L1 is the same hand wired coil than for the volume oscillator.
