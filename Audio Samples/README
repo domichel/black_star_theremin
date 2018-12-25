@@ -1,0 +1,8 @@
+The files from the 18 december 2018 are done with my first antenna design.
+The files from the 23 december 2018 are made with my second antenna design.
+The main difference between the 2 is than the second design is shielded,
+which provide a much better protection against the external sources of noise
+like the hum.
+
+All files are 24 bits 48KHz stereo flac files recorded as wav files with
+a Zomm H4n and converted to flac with flac on gentoo linux.
