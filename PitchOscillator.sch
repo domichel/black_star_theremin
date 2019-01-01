@@ -187,3 +187,7 @@ N 49300 47000 49300 49800 4
 N 49000 47200 49700 47200 4
 N 49700 45600 49700 47200 4
 N 49700 45600 48400 45600 4
+T 48900 43600 9 12 1 0 0 0 3
+L1 is made of 218 turns of 0.4 mm wire from an old fan wounded
+on a 10mm diameter piece of wood.
+That piece of wood was found in the garden by Star the dog.

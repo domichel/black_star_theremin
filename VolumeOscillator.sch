@@ -251,3 +251,5 @@ The exact value of C5 depend on the capacitance of the wiring between
 the oscillator output and the detector of the VCA.
 Its value will be higher with a coaxial cable than with
 a shielded 2 conductors cable.
+T 49400 42500 9 12 1 0 0 0 1
+L1 is of the same construction than for the pitch oscillator.

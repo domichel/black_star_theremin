@@ -199,3 +199,5 @@ ceramic caps was not working well.
 C0 is a negative temperature coefficient cap from the radio.
 Lo is the MW oscillator coil from the radio.
 L1 is the same hand wired coil than for the volume oscillator.
+T 49500 43800 9 12 1 0 0 0 1
+L1 is of the same construction than in the pitch oscillator.
