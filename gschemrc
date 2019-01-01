@@ -1,0 +1,3 @@
+(load "commonrc")
+(snap-size 100)
+(text-size 8)
