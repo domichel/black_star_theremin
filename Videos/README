@@ -1,0 +1,4 @@
+Here are 2 short videos made with ngspice and mencoder.
+A recursive spice simulation of one of the oscillator was made ngspice.
+It was instructed to save the result of each individual simulation and to create an index file.
+The files was coded with mencoder in order to create these video files.
